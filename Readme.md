@@ -26,5 +26,3 @@ Introduction
 - [https://en.wikipedia.org/wiki/PechaKucha](https://en.wikipedia.org/wiki/PechaKucha) a presentation format which keeps presentations concise and fast-paced.
 - Emailverteiler: stima14@fh-joanneum.at
 
-
-change carinaher
