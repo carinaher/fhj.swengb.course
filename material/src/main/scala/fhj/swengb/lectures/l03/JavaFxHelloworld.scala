@@ -51,4 +51,33 @@ class HelloworldController extends Initializable {
     println("clicked")
   }
 
+  def click1(): Unit = {
+    println("1")
+  }
+
+  def click2(): Unit = {
+    println("2")
+  }
+
+  def click3(): Unit = {
+    println("3")
+  }
+  def click4(): Unit = {
+    println("4")
+  }
+  def click5(): Unit = {
+    println("5")
+  }
+  def click6(): Unit = {
+    println("6")
+  }
+  def click7(): Unit = {
+    println("7")
+  }
+  def click8(): Unit = {
+    println("8")
+  }
+  def click9(): Unit = {
+    println("9")
+  }
 }
