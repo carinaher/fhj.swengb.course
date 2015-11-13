@@ -9,123 +9,18 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.lectures.l03.HelloworldController">
+<BorderPane fx:id="seppl77" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.labs.lab03.HelloworldController">
+    <top>
+        <Label text="Helloworld" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+    </top>
     <center>
 
     </center>
-   <center>
-      <GridPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="575.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="7" textOverrun="CLIP" GridPane.rowIndex="2">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="8" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click9" prefHeight="128.0" prefWidth="150.0" text="9" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="4" textOverrun="CLIP" GridPane.rowIndex="3">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="5" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="3">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="6" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="3">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="1" textOverrun="CLIP" GridPane.rowIndex="4">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="2" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="4">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="3" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="4">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" text="." textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="5">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="orange" stylesheets="@buttonstyles.css" text="x" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="3" GridPane.rowIndex="2">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" layoutX="460.0" layoutY="262.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="orange" stylesheets="@buttonstyles.css" text="-" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="3" GridPane.rowIndex="3">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" layoutX="460.0" layoutY="262.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="orange" stylesheets="@buttonstyles.css" text="+" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="3" GridPane.rowIndex="4">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" layoutX="460.0" layoutY="514.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="orange" stylesheets="@buttonstyles.css" text="=" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="3" GridPane.rowIndex="5">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="127.0" prefWidth="150.0" styleClass="orange" stylesheets="@buttonstyles.css" text="/" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="3" GridPane.rowIndex="1">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="grey" stylesheets="@buttonstyles.css" text="\%" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="grey" stylesheets="@buttonstyles.css" text="+/-" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="128.0" prefWidth="150.0" styleClass="grey" stylesheets="@buttonstyles.css" text="C" textOverrun="CLIP" GridPane.rowIndex="1">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-            <Button contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="125.0" prefWidth="299.0" text="0" textOverrun="CLIP" GridPane.rowIndex="5">
-               <font>
-                  <Font size="50.0" />
-               </font>
-            </Button>
-         </children>
-      </GridPane>
-   </center>
+    <bottom>
+        <Button id="green" mnemonicParsing="false" onAction="#clicked" text="clickme" BorderPane.alignment="CENTER" />
+    </bottom>
 </BorderPane>
